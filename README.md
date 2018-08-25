@@ -1,2 +1,2 @@
 # forecasting
-Evaluation of deep learning techniques for (multivariate) time series forecasting.
+Performance comparison of various time series forecasting techniques, including deep learning methods.
