@@ -21,9 +21,14 @@ The forecasting techniques demonstrated in this repository are as follows:
 
 ## Datasets
 
-The datasets used for this evaluation are as follows:
+Datasets that exhibit seasonality, and those that don't, are treated separately.
+
+**Seasonal Datasets:**
 - [California Solar Power](datasets/california-solar-power.ipynb) (CSP) - Power output of 405 photovoltaic power stations at five minute intervals<sup>5</sup>
 - [Household Electricity Consumption](datasets/household-electricity-consumption.ipynb) (HEC) - Electricity consumption of 370 households in Portugal at 15 minute intervals<sup>6</sup>
+
+**Non-Seasonal Datasets:**
+- N/A
 
 ## Evaluation
 
@@ -33,19 +38,24 @@ For non-seasonal datasets (currently none), the *mean absolute scaled error* (MA
 
 The results are shown below and are also viewable in [this notebook](model-performance-comparisons.ipynb).
 
+**Seasonal Datasets:**
+
 ||CSP | HEC
 |---|---|---|
-|DeepAR | 1.53339 | 2.3044
-|Naive | 1.60171 | 1.86245
-|Prophet | 1.62997 | 2.42382
-|SARIMA | 1.63626 | 1.96862
-|SARIMAX | 1.65369 |1.95691
-|LinearRegression | 2.03625 | 2.26433
-|ARIMA | 4.70812 |	3.67537
-|ARIMAX | 4.84158 | 3.72794
-|Average | 6.67786 | 4.41457
+|SARIMA | 0.734733 | 1.60976
+|SARIMAX | 0.75265 | 1.61433
+|Naive | 1 | 1
+|DeepAR | 1.0884 | 1.69218
+|Prophet | 1.10443 | 1.63378
+|LinearRegression | 1.46422 | 2.03795
+|ARIMA | 3.14786 | 2.04262
+|ARIMAX | 3.62378 | 2.01298
+|Average | 5.20921 | 2.39973
 
-For the CSP and HEC datasets, a period of 24 hours was used to calculate the sMASE. The time horizon used for evaluating the forecasts was three weeks, and as such, the Seasonal Naive method has sMASE scores greater than 1 (an sMASE of exactly 1 would be obtained if a period of three weeks was used for the sMASE calculation).
+
+**Non-Seasonal Datasets:**
+
+N/A
 
 ---
 #### References:<br>
