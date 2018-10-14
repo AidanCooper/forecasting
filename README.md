@@ -26,13 +26,16 @@ Datasets that exhibit seasonality, and those that don't, are treated separately.
 **Seasonal Datasets:**
 - [California Solar Power](datasets/california-solar-power.ipynb) (CSP) - Power output of 405 photovoltaic power stations at five minute intervals<sup>5</sup>
 - [Household Electricity Consumption](datasets/household-electricity-consumption.ipynb) (HEC) - Electricity consumption of 370 households in Portugal at 15 minute intervals<sup>6</sup>
+- [Hourly Weather Temperature](datasets/hourly-weather.ipynb) (HWT) - Hourly temperatures for 36 US, Canadian and Israeli cities<sup>7</sup>
+- [Hourly Weather Wind Speed](datasets/hourly-weather.ipynb) (HWS) - Hourly wind speeds for 36 US, Canadian and Israeli cities<sup>7</sup>
+- [Hourly Weather Wind Directions](datasets/hourly-weather.ipynb) (HWS) - Hourly wind directions for 36 US, Canadian and Israeli cities<sup>7</sup>
 
 **Non-Seasonal Datasets:**
 - N/A
 
 ## Evaluation
 
-For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>7</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets (currently CSP and HEC), the seasonal variant (sMASE) is used.
+For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>8</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
 
 ## Results
 
@@ -40,17 +43,17 @@ The results are shown below and are also viewable in [this notebook](model-perfo
 
 **Seasonal Datasets:**
 
-||CSP | HEC
-|---|---|---|
-|SARIMA | 0.734733 | 1.60976
-|SARIMAX | 0.75265 | 1.61433
-|Naive | 1 | 1
-|DeepAR | 1.0884 | 1.69218
-|Prophet | 1.10443 | 1.63378
-|LinearRegression | 1.46422 | 2.03795
-|ARIMA | 3.14786 | 2.04262
-|ARIMAX | 3.62378 | 2.01298
-|Average | 5.20921 | 2.39973
+||CSP|HEC|HWT|HWS|HWD|
+|---|---|---|---|---|---|
+|SARIMA|0.734733|1.60976|1.25492|0.806742|0.713394|
+|SARIMAX|0.75265|1.61433|1.3084|0.865172|0.731366|
+|Naive|1|1|1|1|1|
+|DeepAR|1.0884|1.69218|1.92888|0.795072|0.754109|
+|Prophet|1.10443|1.63378|1.32722|0.849303|0.999691|
+|LinearRegression|1.46422|2.03795|1.15451|0.821911|0.830871|
+|ARIMA|3.14786|2.04262|1.18837|0.794829|0.838663|
+|ARIMAX|3.62378|2.01298|1.4158|0.889121|0.875279|
+|Average|5.20921|2.39973|2.11568|0.813868|0.878027|
 
 
 **Non-Seasonal Datasets:**
@@ -65,4 +68,5 @@ N/A
 4: [Amazon SageMaker DeepAR Forecasting](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)<br>
 5: [National Renewable Energy Laboratory](https://www.nrel.gov/grid/solar-power-data.html)<br>
 6: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)<br>
-7: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
+7: [Kaggle](https://www.kaggle.com/selfishgene/historical-hourly-weather-data/home)<br>
+8: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
