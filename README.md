@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Performance comparison of various time series forecasting techniques, including deep learning methods, presented as Python implemenations in Jupyter notebooks. These notebooks are written so that they can be read and understood in isolation, and as such, there may be repetition in certain parts between them. The models presented are by no means fully optimised, but are intended to serve as a framework for anyone interested in implementing these forecasting techniques in their own projects.
+Performance comparison of various time series forecasting techniques, including deep learning methods, presented as Python implemenations in Jupyter notebooks. These notebooks are written so that they can be read and understood in isolation, and as such, there may be repetition in certain parts between them. The models presented in these notebooks have not been fully-optimised, and are intended to serve as a starting framework for anyone interested in implementing these forecasting techniques in their own projects.
 
 This repository is actively being updated with more forecasting methods and datasets.
 
