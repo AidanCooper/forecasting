@@ -1,0 +1,78 @@
+input_features:
+    -
+        name: CSP
+        type: timeseries
+
+output_features:
+    -
+        name: y1
+        type: numerical
+    -
+        name: y2
+        type: numerical
+    -
+        name: y3
+        type: numerical
+    -
+        name: y4
+        type: numerical
+    -
+        name: y5
+        type: numerical
+    -
+        name: y6
+        type: numerical
+    -
+        name: y7
+        type: numerical
+    -
+        name: y8
+        type: numerical
+    -
+        name: y9
+        type: numerical
+    -
+        name: y10
+        type: numerical
+    -
+        name: y11
+        type: numerical
+    -
+        name: y12
+        type: numerical
+    -
+        name: y13
+        type: numerical
+    -
+        name: y14
+        type: numerical
+    -
+        name: y15
+        type: numerical
+    -
+        name: y16
+        type: numerical
+    -
+        name: y17
+        type: numerical
+    -
+        name: y18
+        type: numerical
+    -
+        name: y19
+        type: numerical
+    -
+        name: y20
+        type: numerical
+    -
+        name: y21
+        type: numerical
+    -
+        name: y22
+        type: numerical
+    -
+        name: y23
+        type: numerical
+    -
+        name: y24
+        type: numerical
