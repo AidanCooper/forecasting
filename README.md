@@ -18,7 +18,7 @@ The forecasting techniques demonstrated in this repository are as follows:
 - [SARIMAX](SARIMAX)<sup>2</sup>
 - [Prophet](Prophet) - An open source time series forecasting method from Facebook<sup>3</sup>
 - [SageMaker DeepAR](DeepAR) - A deep learning method on the AWS SageMaker platform<sup>4</sup>
-- [Ludwig](Ludwig) - A toolkit created by Uber on top of TensorFlow for training and testing deep learning models<sup>5</sup> 
+- [Ludwig](Ludwig) (WIP) - A toolkit created by Uber on top of TensorFlow for training and testing deep learning models<sup>5</sup> 
 
 ## Datasets
 
