@@ -1,0 +1,31 @@
+{
+    "HWS": {
+        "max_timeseries_length": 48,
+        "preprocessing": {
+            "fill_value": "",
+            "format": "space",
+            "missing_value_strategy": "fill_with_const",
+            "padding": "right",
+            "padding_value": 0,
+            "timeseries_length_limit": 256
+        }
+    },
+    "y1": {
+        "preprocessing": {
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const"
+        }
+    },
+    "y2": {
+        "preprocessing": {
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const"
+        }
+    },
+    "y3": {
+        "preprocessing": {
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const"
+        }
+    }
+}

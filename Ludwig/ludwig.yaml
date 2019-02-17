@@ -1,0 +1,15 @@
+input_features:
+    -
+        name: HWS
+        type: timeseries
+
+output_features:
+    -
+        name: y1
+        type: numerical
+    -
+        name: y2
+        type: numerical
+    -
+        name: y3
+        type: numerical
