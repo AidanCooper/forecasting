@@ -1,6 +1,6 @@
 {
-    "CSP": {
-        "max_timeseries_length": 256,
+    "HWS": {
+        "max_timeseries_length": 48,
         "preprocessing": {
             "fill_value": "",
             "format": "space",
@@ -16,139 +16,13 @@
             "missing_value_strategy": "fill_with_const"
         }
     },
-    "y10": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y11": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y12": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y13": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y14": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y15": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y16": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y17": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y18": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y19": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
     "y2": {
         "preprocessing": {
             "fill_value": 0,
             "missing_value_strategy": "fill_with_const"
         }
     },
-    "y20": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y21": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y22": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y23": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y24": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
     "y3": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y4": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y5": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y6": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y7": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y8": {
-        "preprocessing": {
-            "fill_value": 0,
-            "missing_value_strategy": "fill_with_const"
-        }
-    },
-    "y9": {
         "preprocessing": {
             "fill_value": 0,
             "missing_value_strategy": "fill_with_const"

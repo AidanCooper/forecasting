@@ -1,7 +1,7 @@
 {
-    "command": "C:\\Users\\aidan\\Anaconda3\\envs\\ludwig\\Scripts\\ludwig experiment --data_csv single.csv --model_definition_file ludwig.yaml",
-    "commit_hash": "7f7d7e323062",
-    "dataset_type": "single.csv",
+    "command": "C:\\Users\\aidan\\Anaconda3\\envs\\ludwig\\Scripts\\ludwig experiment --data_csv full.csv --model_definition_file ludwig.yaml",
+    "commit_hash": "3183a5bfd33a",
+    "dataset_type": "full.csv",
     "ludwig_version": "0.1.0",
     "model_definition": {
         "combiner": {
@@ -9,7 +9,7 @@
         },
         "input_features": [
             {
-                "name": "CSP",
+                "name": "HWS",
                 "tied_weights": null,
                 "type": "timeseries"
             }
