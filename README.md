@@ -30,13 +30,14 @@ Datasets that exhibit seasonality, and those that don't, are treated separately.
 - [Hourly Weather Temperature](datasets/hourly-weather.ipynb) (HWT) - Hourly temperatures for 36 US, Canadian and Israeli cities<sup>8</sup>
 - [Hourly Weather Wind Speed](datasets/hourly-weather.ipynb) (HWS) - Hourly wind speeds for 36 US, Canadian and Israeli cities<sup>8</sup>
 - [Hourly Weather Wind Directions](datasets/hourly-weather.ipynb) (HWS) - Hourly wind directions for 36 US, Canadian and Israeli cities<sup>8</sup>
+- [San Francisco Traffic](datasets/san-francisco-traffic.ipynb) (SFT) - Hourly road occupancy rates for various San Francisco Bay Area freeways<sup>9</sup>
 
 **Non-Seasonal Datasets:**
 - N/A
 
 ## Evaluation
 
-For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>9</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
+For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>10</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
 
 ## Results
 
@@ -71,4 +72,5 @@ N/A
 6: [National Renewable Energy Laboratory](https://www.nrel.gov/grid/solar-power-data.html)<br>
 7: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)<br>
 8: [Kaggle](https://www.kaggle.com/selfishgene/historical-hourly-weather-data/home)<br>
-9: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
+9: [Caltrans PeMS](http://pems.dot.ca.gov)<br>
+10: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
