@@ -33,11 +33,11 @@ Datasets that exhibit seasonality, and those that don't, are treated separately.
 - [San Francisco Traffic](datasets/san-francisco-traffic.ipynb) (SFT) - Hourly road occupancy rates for various San Francisco Bay Area freeways<sup>9</sup>
 
 **Non-Seasonal Datasets:**
-- N/A
+- [Daily Exchange Rates](datasets/daily-exchange-rates.ipynb) (DER) - Daily exchange rates between 1990 and 2016 of eight countries (Australia, Britain, Canada, Switzerland, China, Japan, New Zealand, Singapore)<sup>10</sup>
 
 ## Evaluation
 
-For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>10</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
+For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>11</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
 
 ## Results
 
@@ -60,7 +60,12 @@ The results are shown below and are also viewable in [this notebook](model-perfo
 
 **Non-Seasonal Datasets:**
 
-N/A
+||DER|
+|---|---|
+|Naive|5.42765|
+|DeepAR|5.7467|
+|ARIMA|6.1503|
+|Average|16.7777|
 
 ---
 #### References:<br>
@@ -73,4 +78,5 @@ N/A
 7: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)<br>
 8: [Kaggle](https://www.kaggle.com/selfishgene/historical-hourly-weather-data/home)<br>
 9: [Caltrans PeMS](http://pems.dot.ca.gov)<br>
-10: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
+10: [GitHub/laiguokun](https://github.com/laiguokun/multivariate-time-series-data/tree/master/exchange_rate)<br>
+11: [Forecasting: Principles and Practice - Chapter 3.4](https://otexts.org/fpp2/accuracy.html)<br>
