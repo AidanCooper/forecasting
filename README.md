@@ -10,7 +10,7 @@ This repository is actively being updated with more forecasting methods and data
 
 The forecasting techniques demonstrated in this repository are as follows:
 - [Average Method](Average) - A simple benchmark model<sup>1</sup>
-- [Seasonal Naïve Method](Naive) - A simple benchmark model<sup>1</sup>
+- [(Seasonal) Naïve Method](Naive) - A simple benchmark model<sup>1</sup>
 - [Linear Regression](LinearRegression)
 - [ARIMA](ARIMA)<sup>2</sup>
 - [ARIMAX](ARIMAX)<sup>2</sup>
