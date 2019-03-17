@@ -37,7 +37,7 @@ Datasets that exhibit seasonality, and those that don't, are treated separately.
 
 ## Evaluation
 
-For non-seasonal datasets (currently none), the *mean absolute scaled error* (MASE)<sup>11</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
+For non-seasonal datasets, the *mean absolute scaled error* (MASE)<sup>11</sup> is used to evaluate and compare forecasting accuracies for the different techniques. For seasonal datasets, the seasonal variant (sMASE) is used.
 
 ## Results
 
