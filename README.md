@@ -1,4 +1,4 @@
-# Forecasting Techniques Comparison
+# Python Forecasting Techniques Comparison
 
 ## Introduction
 
